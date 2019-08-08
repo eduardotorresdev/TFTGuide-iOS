@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TFTGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="auD-hv-mXv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" id="W92-Hi-e7J">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="sg1-aG-2M3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0tv-LV-tLQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TeamFight Tactics - Guide" textAlignment="center" minimumFontSize="17" id="Vev-Ui-5Mk">
+                                                    <rect key="frame" x="71" y="36" width="231" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </view>
+                                        <blurEffect style="dark"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="9z3-lg-14Z" customClass="BgRecentes" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="19" y="90" width="122" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HQR-Vr-ecg">
+                                            <rect key="frame" x="0.0" y="0.0" width="122" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Recentes" textAlignment="natural" minimumFontSize="17" id="QIx-DJ-pPu">
+                                                    <rect key="frame" x="22" y="5" width="79" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </view>
+                                        <blurEffect style="dark"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="NEp-6Y-d4E" customClass="BgItensBase" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="142" y="90" width="214" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="FQC-pO-mkh">
+                                            <rect key="frame" x="0.0" y="0.0" width="214" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Itens base" textAlignment="center" minimumFontSize="17" id="yWH-PP-DnG">
+                                                    <rect key="frame" x="65" y="5" width="84" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </view>
+                                        <blurEffect style="dark"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="hT0-Vt-PWL" customClass="BgItensRecentes" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="19" y="138" width="122" height="464"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1ka-kg-4LB">
+                                            <rect key="frame" x="0.0" y="0.0" width="122" height="464"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="dark"/>
+                                    </visualEffectView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="605-e0-wYJ" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="149" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="kK0-YY-asl" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="240" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mvm-5q-Fws" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="331" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d10-os-MDZ" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="423" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Od8-aD-hfw" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="42" y="514" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gpc.png" id="MXs-bH-sKR" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="159" y="138" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcoRecurvo.png" id="PF9-zB-KNJ" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="266" y="138" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cotaDeMalha.png" id="OD4-qC-zyF" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="159" y="234" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negatron.png" id="zJ7-PA-5up" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="266" y="234" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bastao.png" id="qQ1-8f-udF" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="159" y="332" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gota.png" id="I3W-hj-oxh" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="266" y="332" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cintoDoGigante.png" id="3Yz-nK-agk" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="159" y="429" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="espatula.png" id="J8P-yd-dr0" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="266" y="429" width="74" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" id="F72-f9-KN3" customClass="BgModal" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59511451199999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="DQy-P7-mMI" customClass="ItemModal" customModule="TFTGuide" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <visualEffectView opaque="NO" contentMode="scaleToFill" id="ahS-ll-WXO" customClass="RoundedTop" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="58" y="225" width="258" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.29999999999999999" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mLy-LD-1O5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="258" height="224"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </view>
+                                                <blurEffect style="extraLight"/>
+                                            </visualEffectView>
+                                            <visualEffectView opaque="NO" contentMode="scaleToFill" id="9e3-4B-8RA" customClass="RoundedBottom" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="58" y="450" width="258" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.29999999999999999" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zoq-z1-KDF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="258" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </view>
+                                                <blurEffect style="extraLight"/>
+                                            </visualEffectView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jzy-qd-DWu" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="149" y="238" width="74" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gume do infinito" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iUj-Te-hhN">
+                                                <rect key="frame" x="58" y="314" width="258" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No início de combate, os aliados dentro de 2 casas na mesma linha recebem +15% de Velocidade de Ataque pelo resto do combate." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R1Y-iQ-UG5" customClass="ItemDescricao" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="86" y="335" width="202" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="y2c-md-MbE" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="141" y="402" width="40" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FIu-Ix-0bx" customClass="ImageRounded" customModule="TFTGuide" customModuleProvider="target">
+                                                <rect key="frame" x="190" y="402" width="40" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wH5-og-tNR">
+                                                <rect key="frame" x="58" y="449" width="258" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Voltar"/>
+                                                <connections>
+                                                    <action selector="modalItemDismiss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4XU-cf-YBj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46184422159999999" green="1" blue="0.60364986300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="bgItensBase" destination="NEp-6Y-d4E" id="u05-9B-DNJ"/>
+                        <outlet property="bgItensRecentes" destination="hT0-Vt-PWL" id="zgf-Jg-8tR"/>
+                        <outlet property="bgModal" destination="F72-f9-KN3" id="HXr-Ld-tTD"/>
+                        <outlet property="bgRecentes" destination="9z3-lg-14Z" id="4Fj-hT-TO2"/>
+                        <outlet property="firstImgModal" destination="y2c-md-MbE" id="uzh-97-uLT"/>
+                        <outlet property="img1" destination="MXs-bH-sKR" id="MLe-fJ-4GF"/>
+                        <outlet property="img2" destination="PF9-zB-KNJ" id="R0W-4g-4o9"/>
+                        <outlet property="img3" destination="OD4-qC-zyF" id="gB8-xC-wvS"/>
+                        <outlet property="img4" destination="zJ7-PA-5up" id="09s-Oy-8di"/>
+                        <outlet property="img5" destination="qQ1-8f-udF" id="jN8-8H-RSH"/>
+                        <outlet property="img6" destination="I3W-hj-oxh" id="oc0-6u-S7W"/>
+                        <outlet property="img7" destination="3Yz-nK-agk" id="UxB-Is-a9t"/>
+                        <outlet property="img8" destination="J8P-yd-dr0" id="qww-X7-Oxf"/>
+                        <outlet property="imgModal" destination="jzy-qd-DWu" id="cOQ-Ep-kPa"/>
+                        <outlet property="itemDescricao" destination="R1Y-iQ-UG5" id="uqm-Px-kHg"/>
+                        <outlet property="itemNome" destination="iUj-Te-hhN" id="Mtk-zZ-VSg"/>
+                        <outlet property="modalItem" destination="DQy-P7-mMI" id="bJH-mj-bUi"/>
+                        <outlet property="recentes1" destination="605-e0-wYJ" id="Lxp-6f-0WL"/>
+                        <outlet property="recentes2" destination="kK0-YY-asl" id="IgQ-hk-RDB"/>
+                        <outlet property="recentes3" destination="mvm-5q-Fws" id="DVe-Hd-HbO"/>
+                        <outlet property="recentes4" destination="d10-os-MDZ" id="gML-Da-BAX"/>
+                        <outlet property="recentes5" destination="Od8-aD-hfw" id="o74-78-6ma"/>
+                        <outlet property="secondImgModal" destination="FIu-Ix-0bx" id="1uJ-uQ-JOG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="28.335832083958024"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arcoRecurvo.png" width="50" height="50"/>
+        <image name="bastao.png" width="50" height="50"/>
+        <image name="bg.png" width="1080" height="1920"/>
+        <image name="cintoDoGigante.png" width="50" height="50"/>
+        <image name="cotaDeMalha.png" width="50" height="50"/>
+        <image name="espatula.png" width="54" height="54"/>
+        <image name="gota.png" width="50" height="50"/>
+        <image name="gpc.png" width="64" height="64"/>
+        <image name="negatron.png" width="50" height="50"/>
+    </resources>
+</document>
