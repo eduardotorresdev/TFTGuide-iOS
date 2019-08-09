@@ -18,14 +18,14 @@ A aplicação foi totalmente desenvolvida na linguagem Swift, nativa do iOS, sen
 Abaixo os bugs apresentados:
 
 Caso o aplicativo esteja no modo paisagem:
- - A lista de itens base (G.p.c, Arco recurvo, etc) ficam ocultas caso.
- - Na tela de detalhe do item, a descrição fica fora do centro caso.
+ - A lista de itens base (G.p.c, Arco recurvo, etc) ficam ocultas.
+ - Na tela de detalhe do item, a descrição fica fora do centro.
 
 Se você encontrar algum bug novo, por favor, reporte!
 
 ## Observações
 
-Infelizmente, não encontrei os ícones dos itens com uma qualidade boa. Isso se deve às imagens serem antigas, mas caso você encontre imagens melhores, peço que envie.
+Infelizmente, não encontrei os ícones dos itens com uma boa qualidade, por eles serem serem antigos. Mas caso você encontre imagens melhores, peço que envie.
 
 ## Créditos
 Desenvolvido por: Eduardo Torres - Ciência da Computação - UFMA - 2018.1
