@@ -10,6 +10,11 @@ A aplicação foi totalmente desenvolvida na linguagem Swift, nativa do iOS, sen
 
 ## Imagens da aplicação
 
+<img src="https://i.imgur.com/y7n5jIR.png" width="300"/>
+<img src="https://i.imgur.com/cMFVUIo.png" width="300"/>  
+<img src="https://i.imgur.com/75oLlRu.png" width="300"/>
+<img src="https://i.imgur.com/R8LN5cH.png" width="300"/>
+
 ## Bugs
 Abaixo os bugs apresentados:
 
@@ -18,6 +23,10 @@ Caso o aplicativo esteja no modo paisagem:
  - Na tela de detalhe do item, a descrição fica fora do centro caso.
 
 Se você encontrar algum bug novo, por favor, reporte!
+
+## Observações
+
+Infelizmente, não encontrei os ícones dos itens com uma qualidade boa. Isso se deve às imagens serem antigas, mas caso você encontre imagens melhores, peço que envie.
 
 ## Créditos
 Desenvolvido por:
