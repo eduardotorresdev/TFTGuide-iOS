@@ -10,10 +10,9 @@ A aplicação foi totalmente desenvolvida na linguagem Swift, nativa do iOS, sen
 
 ## Imagens da aplicação
 
-<img src="https://i.imgur.com/y7n5jIR.png" width="300"/>
-<img src="https://i.imgur.com/cMFVUIo.png" width="300"/>  
-<img src="https://i.imgur.com/75oLlRu.png" width="300"/>
-<img src="https://i.imgur.com/R8LN5cH.png" width="300"/>
+| <img src="https://i.imgur.com/y7n5jIR.png" width="300"/> | <img src="https://i.imgur.com/cMFVUIo.png" width="300"/>   |
+|--|--|
+| <img src="https://i.imgur.com/75oLlRu.png" width="300"/> | <img src="https://i.imgur.com/R8LN5cH.png" width="300"/> |
 
 ## Bugs
 Abaixo os bugs apresentados:
