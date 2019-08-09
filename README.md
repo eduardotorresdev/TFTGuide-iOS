@@ -29,6 +29,6 @@ Infelizmente, não encontrei os ícones dos itens com uma qualidade boa. Isso se
 
 ## Créditos
 Desenvolvido por:
-	Eduardo Torres
-	Ciência da Computação - UFMA - 2018.1
+Eduardo Torres
+Ciência da Computação - UFMA - 2018.1
 
