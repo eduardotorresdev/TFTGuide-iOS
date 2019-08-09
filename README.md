@@ -28,7 +28,5 @@ Se você encontrar algum bug novo, por favor, reporte!
 Infelizmente, não encontrei os ícones dos itens com uma qualidade boa. Isso se deve às imagens serem antigas, mas caso você encontre imagens melhores, peço que envie.
 
 ## Créditos
-Desenvolvido por:
-Eduardo Torres
-Ciência da Computação - UFMA - 2018.1
+Desenvolvido por: Eduardo Torres - Ciência da Computação - UFMA - 2018.1
 
